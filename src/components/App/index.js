@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import logo from '../logo.svg';
 import './index.css';
+import Header from '../Header/index'
 
 
 class App extends Component {
@@ -20,12 +21,13 @@ class App extends Component {
 render() {
      return (
         <div className="container">
-           <h1 className="title">
+           <Header/>
+           {/* <h1 className="title">
               Hello world
               <span aria-label="emoji" role="img">🔥</span>
            </h1>
            <input onChange={this.handleTaskChange} type="text" className="new-task"/>
-           <h2 className="test-label">{this.state.newTask}</h2>
+           <h2 className="test-label">{this.state.newTask}</h2> */}
 
         </div>
      );

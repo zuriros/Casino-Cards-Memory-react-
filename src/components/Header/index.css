@@ -1,0 +1,15 @@
+header{
+  /* height: 50px; */
+  /* border: 1px solid black; */
+  /* margin-bottom: 10px; */
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: aquamarine;
+}
+.titulo {
+   font-size: 25px;
+   padding: 10px;
+   /* color:#fff; */
+  }
